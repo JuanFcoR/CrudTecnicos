@@ -22,7 +22,7 @@ const toastMessage = (message, valid = true)=>{
 
 const loadTecnicos = ()=> {
     $.ajax({
-        url: '../views/tecnico_list.php',
+        url: 'views/tecnico_list.php',
         type: 'GET',
         success: function(data) {
             $('#tecnico-list').html(data);
@@ -98,7 +98,7 @@ $(document).ready(function() {
             return false;
         }
         $.ajax({
-            url: '../public/index.php',
+            url: 'index.php',
             type: 'POST',
             data: {
                 action: action,
@@ -127,7 +127,7 @@ $(document).on('click', '.btnDelete', function() {
     let tecnicoId = $(this).data('id');
     if (confirm('¿Estás seguro de que quieres eliminar a este estudiante?')) {
         $.ajax({
-            url: '../public/index.php',
+            url: 'index.php',
             type: 'POST',
             data: {
                 action: 'delete',
@@ -151,7 +151,7 @@ $(document).on('click', '.btnUpdate', function() {
     let data = $(this).serialize();
 
     $.ajax({
-        url: '../public/index.php',
+        url: 'index.php',
         type: 'POST',
         data: {
             action: 'getTecnico',

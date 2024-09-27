@@ -1,6 +1,6 @@
 <?php
-require_once '../config/database.php';
-require_once '../controllers/TecnicoController.php';
+require_once 'config/database.php';
+require_once 'controllers/TecnicoController.php';
 
 $controller = new TecnicoController($pdo);
 
@@ -32,4 +32,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 }
 
-include '../views/tecnico_form.php';
+include 'views/tecnico_form.php';

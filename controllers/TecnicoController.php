@@ -1,5 +1,5 @@
 <?php
-require_once '../models/Tecnico.php';
+require_once __DIR__ . '/../models/Tecnico.php';
 
 class TecnicoController {
     private $tecnicoModel;
