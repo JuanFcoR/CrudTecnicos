@@ -5,9 +5,9 @@
     <title>Formulario de Tecnicos</title>
     <link href="public/css/style.css" rel="stylesheet">
     <!-- Bootstrap 5.3.2 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap 5.3.2 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -52,7 +52,7 @@
 </div>
 
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="public/js/jquery-3.6.0.min.js"></script>
 <script src="public/js/script.js"></script>
 </body>
 </html>
