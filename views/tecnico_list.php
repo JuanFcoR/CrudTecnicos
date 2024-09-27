@@ -23,8 +23,8 @@ $tecnicos = $controller->read();
             <td><?php echo htmlspecialchars($tecnico['SueldoHora']); ?></td>
             <td>
                 <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                    <button type="button" name="btnUpdate" class="btnUpdate btn btn-primary" data-id="<?php echo htmlspecialchars($tecnico['TecnicoId']); ?>" >update</button>
-                    <button type="button" class="btnDelete btn btn-danger" data-id="<?php echo htmlspecialchars($tecnico['TecnicoId']); ?>">delete</button>
+                    <button type="button" name="btnUpdate" class="btnUpdate btn btn-primary" data-id="<?php echo htmlspecialchars($tecnico['TecnicoId']); ?>" >Actualizar</button>
+                    <button type="button" class="btnDelete btn btn-danger" data-id="<?php echo htmlspecialchars($tecnico['TecnicoId']); ?>">Eliminar</button>
                 </div>
             </td>
         </tr>
