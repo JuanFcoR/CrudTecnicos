@@ -33,6 +33,12 @@ $(document).ready(function() {
     $('.toast').toast({
         delay: 3000 // Los toasts se ocultarán automáticamente después de 3 segundos
     });
+
+    /**
+     *Este metodo es para validar el formulario, existe una libreria
+     * en jquery que faciliat por mucho esto, pero no coinicidira con el proposito
+     * de hacer un CRUD lo mas sencillo y 'vanilla' posible en PHP
+     */
     const validation = ()=>{
         let valid = true;
         let nombresValidation = nombres.val().trim();
